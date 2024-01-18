@@ -150,5 +150,6 @@ img {
 .hero-bottom {
   padding: 28px;
   background-color: var(--green);
+  font-size: 19px;
   text-align: center;
 }
