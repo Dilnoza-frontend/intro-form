@@ -78,6 +78,11 @@ img {
   height: auto;
 }
 
+*:focus {
+  outline: 2px dotted var(--purple);
+  outline-offset: 3px;
+}
+
 /* Container  */
 
 .container {
@@ -215,5 +220,6 @@ img {
   text-align: center;
 }
 .signup-form-notice-link {
+  font-weight: 500;
   color: var(--red);
 }
